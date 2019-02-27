@@ -1,7 +1,7 @@
 var recipes = { foo: 'bar'}
 
 function updateObjectWithKeyAndValue(object, key, value) {
-  return recipes
+  //return recipes
   Object.assign({}, object, key, value)
 }
 
